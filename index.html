@@ -15,14 +15,18 @@
     
         <div id="optext">
             <p>Click me if you want to enter</p>
-            <div id="button">
-                <button id="actualbutton" onclick="colorFun()">me</button>
+        </div>
+        <div id="button">
+            <button id="actualbutton" onclick="colorFun()">me</button>
+        </div>
+        <div id="neznamvise">
+            <p id="extratext" onclick="myFunction()"></p>  
+        </div>
+            
+        <div id="sveostalo">
                 
-            </div>
-            <div >
-                <p id="extratext" onclick="myFunction()"></p>  
                 <div id="error"></div>
-                <form id="form" action="/" method="GET">
+                <form id="myform" action="/" method="GET">
                 <div class="form2">
                     <label for="name">Name</label>
                     <input class="inputtags" id="name" name="name" type="text" required>
@@ -31,15 +35,17 @@
                     <label for="password">Password</label>
                     <input class="inputtags" id="password" name="password" type="password">
                 </div>
-                <button id="submitbutton" type="submit">Submit</button>
+               
                 </form>
-            </div>
+            
         </div>
-        <div>
-            <p>just trying something out</p>
+        <div id="submitbuttondiv">
+        <button id="submitbutton" type="submit" form="myform">Submit</button>
         </div>
     </div>
-</div>    
+
+    
+
 </body>
 
 </html>

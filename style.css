@@ -8,6 +8,15 @@
    
 
 }
+#neznamvise{
+    color: white;
+    font-family: monospace;
+    font-size: 14px;
+    position: absolute;
+    top: 15%;
+    align-content: center;
+    width: 100%;
+}
 #optext{ 
     
     color: white;
@@ -18,17 +27,30 @@
     align-content: center;
     width: 100%;
     
+    
 }
+
+
+#sveostalo{
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    align-content: center;
+   
+}
+
 #button{  /*ovo tu je kinda useless*/
-    all:unset;
-    top:5%;
+    position: absolute;
+    top:50%;
     font-family: monospace;
     font-size: 14px;
     background: black;
+    width: 100%;
 }
 #actualbutton{
+    position: absolute;
     all: unset;
-    top: 15%;
+    top: 50%;
     font-family: monospace;
     font-size: 14px;
     background: black;
@@ -48,13 +70,7 @@ body {
 
 
 
-.center {
-    margin: auto;
-    margin-left: 10%;
-    border: 3px solid green;
-    padding: 10px;
-    
-  }
+
 
 #extratext{
     
@@ -71,6 +87,7 @@ body {
     background: rgb(20, 20, 20);
     width: 150px;
     height: 20px;
+    font-size: 14px;
 }
 #password{
     background:white;
@@ -78,8 +95,18 @@ body {
     background: rgb(20, 20, 20);
     width: 150px;
     height: 20px;
+    font-size: 14px;
 }
-#submitbutton{
-    all: unset;
+#submitbuttondiv{
+   
+    position: absolute;
+    top: 70%;
+    width: 100%;
+    
+    align-items: center;
 
+}
+div.form2{
+    font-size: 14px;
+    font-family: monospace;
 }
