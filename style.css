@@ -1,0 +1,81 @@
+#naslov{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-size: 16px;
+   
+
+}
+#optext{ 
+    
+    color: white;
+    font-family: monospace;
+    font-size: 14px;
+    position: absolute;
+    top: 45%;
+    align-content: center;
+    width: 100%;
+    
+}
+#button{  /*ovo tu je kinda useless*/
+    all:unset;
+    top:5%;
+    font-family: monospace;
+    font-size: 14px;
+    background: black;
+}
+#actualbutton{
+    all: unset;
+    top: 15%;
+    font-family: monospace;
+    font-size: 14px;
+    background: black;
+    color: white;
+    outline: none;
+    outline-color: black;
+
+}
+
+.background{
+    background: black;
+
+}
+body {
+    background-color: black;
+}
+
+
+
+.center {
+    margin: auto;
+    margin-left: 10%;
+    border: 3px solid green;
+    padding: 10px;
+    
+  }
+
+#extratext{
+    
+    font-family: monospace;
+    font-size: 14px;
+    
+
+}
+
+
+#name{
+    background:white;
+    all:unset;
+    background: rgb(20, 20, 20);
+    width: 150px;
+    height: 20px;
+}
+#password{
+    background:white;
+    all:unset;
+    background: rgb(20, 20, 20);
+    width: 150px;
+    height: 20px;
+}

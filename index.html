@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="js1.js"></script>
+<script defer src="form.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="background">  
+
+    
+    
+    <div id="naslov">
+        <p>hello</p>
+    
+        <div id="optext">
+            <p>Click me if you want to enter</p>
+            <div id="button">
+                <button id="actualbutton" onclick="colorFun()">me</button>
+                
+            </div>
+            <div >
+                <p id="extratext" onclick="myFunction()"></p>  
+                <div id="error"></div>
+                <form id="form" action="/" method="GET">
+                <div class="form2">
+                    <label for="name">Name</label>
+                    <input class="inputtags" id="name" name="name" type="text" required>
+                </div>
+                <div class="form2">
+                    <label for="password">Password</label>
+                    <input class="inputtags" id="password" name="password" type="password">
+                </div>
+                <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>    
+</body>
+
+</html>
