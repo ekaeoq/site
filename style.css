@@ -106,6 +106,10 @@ body {
     align-items: center;
 
 }
+#submitbutton{
+    all: unset;
+    border-width: 3px;
+}
 div.form2{
     font-size: 14px;
     font-family: monospace;
