@@ -1,0 +1,9 @@
+body{
+    background-color: black;
+    color: white;
+}
+#sveostalo{
+    position: absolute;
+    align-items: center;
+    width: 100%;
+}

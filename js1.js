@@ -1,6 +1,5 @@
 function colorFun(){
-    document.getElementById("actualbutton").style.color = "red";
-    document.getElementById("extratext").innerHTML = "Paragraph changed, New Paragraph Text.";
+    location.href = "loginpage.html";
 }
 
 function showForm() {

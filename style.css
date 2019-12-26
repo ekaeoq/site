@@ -36,8 +36,13 @@
     top: 60%;
     width: 100%;
     align-content: center;
+   
     
    
+}
+#inbetweenbutton{
+    all: unset;
+    font-size: 14px;
 }
 
 #button{  /*ovo tu je kinda useless*/
