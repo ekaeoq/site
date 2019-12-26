@@ -36,6 +36,7 @@
     top: 60%;
     width: 100%;
     align-content: center;
+    
    
 }
 
@@ -88,6 +89,8 @@ body {
     width: 150px;
     height: 20px;
     font-size: 14px;
+    top: 50%;
+    width: 100%;
 }
 #password{
     background:white;
@@ -96,6 +99,8 @@ body {
     width: 150px;
     height: 20px;
     font-size: 14px;
+    top: 75%;
+    width: 100%;
 }
 #submitbuttondiv{
    
@@ -111,6 +116,7 @@ body {
     border-width: 3px;
 }
 div.form2{
+    
     font-size: 14px;
     font-family: monospace;
 }
