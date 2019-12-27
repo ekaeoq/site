@@ -1,9 +1,66 @@
-body{
+html {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    
+}
+
+#namelabel{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    font-family: monospace;
+    font-size: 15px;
+} 
+
+#passwordlabel{
+    position: absolute;
+    top: 47.5%;
+    left: 40%;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+#name{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    width: 10%;
+    background-color: black;
+    color: white;
+    
+}
+
+#password{
+    position: absolute;
+    top: 47.5%;
+    left: 45%;
+    width: 10%;
     background-color: black;
     color: white;
 }
-#sveostalo{
+
+#submitbutton{
     position: absolute;
-    align-items: center;
-    width: 100%;
+    top: 52%;
+    left: 48%;
+    color: white;
+    background-color: black;
+    font-family: monospace;
 }
+
+#error{
+    position: absolute; 
+    top: 20%;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 300px; /* Need a specific value to work */
+    font-family: monospace;
+}
+

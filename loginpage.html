@@ -2,6 +2,7 @@
 <html>
 <head>
 <link rel="stylesheet"  type="text/css" href="loginpage.css">
+<script defer src="form.js"></script>
 
 </head>
 <body>
@@ -9,14 +10,16 @@
     <div id="sveostalo">
                 
         <div id="error"></div>
+
         <form id="myform" action="/" method="GET">
-        <div class="form2">
-            <label for="name">Name</label>
-            <input class="inputtags" id="name" name="name" type="text" required>
+        
+        <div>
+            <label id="namelabel" for="name">Name</label>
+            <input id="name" name="name" type="text" required>
         </div>
-        <div class="form2">
-            <label for="password">Password</label>
-            <input class="inputtags" id="password" name="password" type="password">
+        <div>
+            <label id="passwordlabel" for="password">Password</label>
+            <input id="password" name="password" type="password">
         </div>
        
         </form>
