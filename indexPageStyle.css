@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+#encodedText{
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    width: 100%;
+}
+
+#encodedText2{
+    position: absolute; 
+    top: 0%;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 300px; /* Need a specific value to work */
+    font-family: monospace;
+
+}
+#text{
+    font-size: 12px;
+    position: absolute;
+    top: 49.5%;
+    left: 47.5%;
+    width: 100%;
+    font-family: monospace;
+}
