@@ -24,8 +24,21 @@ body{
 #text{
     font-size: 12px;
     position: absolute;
-    top: 49.5%;
-    left: 47.5%;
-    width: 100%;
+    top: 48.8%;
+    left: 47.4%;
+   
     font-family: monospace;
+}
+
+#text2{
+    font-size: 12px;
+    position: absolute;
+    top: 48.8%;
+    left: 49.4%;
+    font-family: monospace;
+    
+}
+
+#okey{
+    all: unset;
 }
